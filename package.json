@@ -1,22 +1,12 @@
 {
-  "name": "node-serverless-on-unubo-cloud",
-  "version": "0.0.1",
-  "description": "Node.js serverless example on Unubo Cloud.",
-  "main": "server.js",
+  "name": "function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/unubo/node-serverless-on-unubo-cloud.git"
-  },
-  "author": "Marcel Thomas",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/unubo/node-serverless-on-unubo-cloud/issues"
-  },
-  "homepage": "https://github.com/unubo/node-serverless-on-unubo-cloud#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
