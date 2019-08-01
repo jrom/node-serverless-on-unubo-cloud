@@ -1,12 +1,9 @@
-"use strict"
-
 module.exports = (event, context) => {
-    let err;
-    const result =             {
-        status: "You said: " + JSON.stringify(event.body)
-    };
+  let err;
 
-    context
-        .status(200)
-        .succeed(result);
-}
+  const result = {
+    status: "Node.js serverless on Unubo Cloud."
+  };
+
+  context.status(200).succeed(result);
+};
