@@ -1,9 +1,3 @@
-module.exports = (event, context) => {
-  let err;
-
-  const result = {
-    status: "Node.js serverless on Unubo Cloud."
-  };
-
-  context.status(200).succeed(result);
+module.exports = (event, response) => {
+  response.status(200).succeed('Node.js serverless on Unubo Cloud.');
 };
